@@ -1,5 +1,12 @@
-   theme: jekyll-theme-cayman
-   title: RHDH Setup Guide
-   description: Comprehensive guide for deploying MTA plugins with Red Hat Developer Hub
-   EOF
-   
+theme: jekyll-theme-cayman
+title: RHDH Setup Guide
+description: Comprehensive guide for deploying MTA plugins with Red Hat Developer Hub
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
