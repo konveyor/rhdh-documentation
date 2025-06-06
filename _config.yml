@@ -5,11 +5,26 @@ markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+  hard_wrap: false
+  auto_ids: true
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
 plugins:
   - jekyll-relative-links
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-default-layout
+  - jekyll-titles-from-headings
 relative_links:
   enabled: true
   collections: true
 source: docs
-destination: _site/docs
+destination: _site
 baseurl: /rhdh-documentation
+permalink: pretty
+defaults:
+  - 
+    scope:
+      path: ""
+    values:
+      layout: default
