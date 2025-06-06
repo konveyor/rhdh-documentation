@@ -1,3 +1,8 @@
+---
+layout: default
+title: Backstage RHDH Plugin Configuration Guide
+---
+
 # Backstage RHDH Plugin Configuration Guide
 
 This comprehensive guide outlines the steps to configure, deploy, and troubleshoot the MTA plugin for Red Hat Developer Hub (RHDH).
