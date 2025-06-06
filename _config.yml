@@ -10,3 +10,6 @@ plugins:
 relative_links:
   enabled: true
   collections: true
+source: docs
+destination: _site/docs
+baseurl: /rhdh-documentation
