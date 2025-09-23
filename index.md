@@ -13,6 +13,7 @@ This comprehensive guide outlines the steps to configure, deploy, and troublesho
    - [General Deployment](#general-deployment)
    - [Personal Registry Deployment](#personal-registry-deployment)
 7. [Troubleshooting](#7-troubleshooting)
+8. [Local Development Setup](local-dev-setup.md)
 
 ## 1. Get Access to Your Cluster
 
